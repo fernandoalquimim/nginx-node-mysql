@@ -9,7 +9,7 @@ const config = {
     database: 'nodedb'
 }
 
-const insertSQL = `INSERT INTO people(name) values('Nome ' + ${new Date().toISOString()})`
+const insertSQL = `INSERT INTO people(name) values('Nome')`
 const selectSQL = `SELECT * FROM people;`
 
 app.get('/', (req, res) => {

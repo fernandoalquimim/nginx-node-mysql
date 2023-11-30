@@ -11,7 +11,7 @@ RUN apt-get install -y wget \
 
 COPY . .
 
-RUN npm install mysql --save
+RUN npm install
 
 EXPOSE 3000
 
